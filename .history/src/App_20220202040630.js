@@ -39,12 +39,12 @@ function App() {
         </nav>
         <main className='mainOne'>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + '/'} ><Redirect to="/enter-the-design" /></Route>
-            <Route path="/enter-the-design" ><EnterTheDesign /></Route>
-            <Route exact path="/cs-one" ><CSOne /></Route>
-            <Route exact path="/cs-two" ><CSTwo /></Route>
-            <Route exact path="/cs-three"><CSThree /></Route>
-            <Route exact path="/cs-four"><CSFour /></Route>
+            <Route exact path="/" ><Redirect to="/portfolio/enter-the-design" /></Route>
+            <Route path="/portfolio/enter-the-design" ><EnterTheDesign /></Route>
+            <Route exact path="/portfolio/cs-one" ><CSOne /></Route>
+            <Route exact path="/portfolio/cs-two" ><CSTwo /></Route>
+            <Route exact path="/portfolio/cs-three"><CSThree /></Route>
+            <Route exact path="/portfolio/cs-four"><CSFour /></Route>
 
             <Route path="*"><NotFound /></Route>
           </Switch>
