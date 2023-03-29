@@ -15,7 +15,7 @@ const enterDesign = () => {
         <React.Fragment>
             <div className='firstRow'>
                 <div className="width-60">
-                    <p className='fr-info'>NIRANJAN G P, IS A UI DEVELOPER AT DELOITTE US INDIA</p>
+                    <p className='fr-info'>Niranjan G. P. was a UI developer at Deloitte US India, and now he's pursuing his master's in Human-Computer Interaction at DePaul University.</p>
                 </div>
                 <div className="width-40 img-block">
                     <img src={avatarIcon} alt="avatar-icon" className='avtr-img' />
@@ -23,9 +23,10 @@ const enterDesign = () => {
             </div>
             <div className='sec-row'>
                 <p>Hi, this is Niranjan.</p>
-                <p>I joined Deloitte as a campus recruit. Since then I've been part of many innovative and high-intensity projects, coordinating between multiple virtual teams to help complete client deliverables.</p>
-                <p>I've been part of the FRONT-END community since 2017 and constantly learning and developing UI and gradually having a go at UX design parallely.</p>
-                <p>Currently based in Bengaluru, I have a big love for travel and adventure, also keeping in mind to do my bit to conserve the environment.</p>
+                <p>I joined Deloitte as a campus recruit, and this was the beginning of my entry into the world of development and the many wonders of the world wide web. Since then, I've been part of many innovative and high-intensity projects, coordinating between multiple virtual teams to help complete client deliverables.</p>
+                <p>I've been part of the FRONT-END community since 2017 and am constantly learning and developing UI, gradually flexing my creative mind through learning the many intricacies of the design ecosystem.</p>
+                <p>Currently based in Chicago, IL. I've been pursuing my master's degree at DePaul University in the field of Human-Computer Interaction, which I hope will get me up to speed on how and why design thinking and user research have a bigger part to play in our daily lives involved in virtual and remote participation through the use of various digital technologies.</p>
+                <p>The other part of my life has this big love for travel and adventure, and I also keep in mind doing my bit to conserve the environment.</p>
                 <p>Thanks for stopping by.</p>
             </div>
             <div className='third-row'>
