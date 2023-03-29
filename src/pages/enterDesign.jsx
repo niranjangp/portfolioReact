@@ -15,7 +15,7 @@ const enterDesign = () => {
         <React.Fragment>
             <div className='firstRow'>
                 <div className="width-60">
-                    <p className='fr-info'>Niranjan G. P. was a UI developer at Deloitte US India, and now he's pursuing his master's in Human-Computer Interaction at DePaul University.</p>
+                    <p className='fr-info'>NIRANJAN G. P. was a UI Developer at Deloitte US INDIA, and now he's pursuing his master's in Human-Computer Interaction at DePaul University.</p>
                 </div>
                 <div className="width-40 img-block">
                     <img src={avatarIcon} alt="avatar-icon" className='avtr-img' />
